@@ -4,71 +4,72 @@
 
 ---
 
-Nova Launcher was the gold standard of Android launchers — fast, flexible, and endlessly customizable. Millions of users relied on it every day.
+## Background
 
-Then development stopped. Updates ended. Communication went silent.
+Nova Launcher defined Android customization for nearly a decade. It was fast, deeply configurable, and trusted by millions of users who wanted full control over their home screen experience. For many, it wasn't just an app — it was the reason they chose Android.
 
-But the community didn't move on.
+After its acquisition in 2022, development slowed to a crawl. Updates became rare. Communication with the community stopped entirely. As Android evolved, Nova began falling behind — missing compatibility fixes, ignoring new platform features, and leaving long-standing bugs unresolved.
 
----
-
-## The Idea
-
-**reNOVAte** is a community-driven, open-source effort to build a spiritual successor to Nova Launcher — one that's maintained by the people who actually use it.
-
-Not a fork. Not a clone. A fresh start, built in the open, with the same philosophy that made Nova great:
-
-- ⚡ **Performance first** — smooth, fast, lightweight
-- 🎨 **Deep customization** — gestures, icon packs, layouts, themes
-- 🔒 **Privacy-respecting** — no tracking, no data harvesting
-- 📖 **Fully open-source** — every line of code, transparent
+The app that once set the standard is now slowly becoming obsolete.
 
 ---
 
-## Why This Matters
+## What is reNOVAte?
 
-Great software shouldn't die because a company moves on. Android users deserve a launcher that's actively maintained, community-owned, and built with love.
+**reNOVAte** is a community-driven initiative to build a modern, open-source Android launcher inspired by what made Nova Launcher great.
 
-Nova proved the concept. **reNOVAte** carries it forward.
+This is not a fork or a clone. It's a fresh effort, built from the ground up by the people who actually use launchers daily — developers, designers, testers, and enthusiasts who refuse to let the concept die.
 
----
+The core principles:
 
-## We Need You
-
-This project needs developers, designers, testers, and community builders to make it real.
-
-| Role | What you'd do |
-|------|---------------|
-| **Developers** | Android/Kotlin, launcher core, feature implementation |
-| **Designers** | UI/UX, icon packs, themes, Material You integration |
-| **Testers** | Beta testing, bug reports, device compatibility |
-| **Community** | Docs, translations, social media, outreach |
+- **Performance first** — a launcher should be the fastest app on your phone, not a resource hog. Sub-frame render times, minimal memory footprint, instant gesture response.
+- **Deep customization** — gestures, icon packs, grid layouts, drawer organization, folder styles, widget placement, transition animations. Every detail should be user-configurable.
+- **Privacy by design** — no telemetry, no analytics, no data collection. Your home screen is personal. It stays on your device.
+- **Transparent development** — every line of code is open source. Every decision is discussed publicly. Every release is auditable.
 
 ---
 
-## Join the Movement
+## Why Open Source?
 
-🌐 **Landing Page:** [renovate.pages.dev](https://renovate.pages.dev/)
+The failure of Nova Launcher illustrates a fundamental problem: when great software is owned by a single company, its fate depends on business decisions, not user needs. Acquisitions, pivots, and shifting priorities can kill a product overnight — regardless of how many people depend on it.
 
-Sign up on the waitlist or register as a contributor. Let's build this together.
+Open source solves this. No single entity controls the roadmap. No acquisition can shut it down. The community maintains it, improves it, and ensures it keeps pace with the platform.
 
----
-
-## Status
-
-📌 **Phase:** Gauging interest & building the team
-
-We're currently collecting signups and assembling the founding contributor team. Development will begin once we have a core group in place.
+Android's launcher space needs a credible open-source option. Not a hobby project that gets abandoned after six months, but a serious, well-maintained launcher backed by a real community. That's what reNOVAte aims to be.
 
 ---
 
-## Contact
+## What We Need
 
-[![Instagram](https://img.shields.io/badge/Instagram-chrg__bsr-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/chrg_bsr)
+This project is in its early stages. We're assembling a founding team of contributors across multiple disciplines:
+
+| Role | Scope |
+|------|-------|
+| **Android Developers** | Kotlin, Jetpack Compose, launcher services, window management, performance profiling |
+| **UI/UX Designers** | Interface design, interaction patterns, icon systems, theming architecture, Material You integration |
+| **QA and Testers** | Device compatibility testing, regression testing, beta program management, bug triage |
+| **Community and Docs** | Technical writing, API documentation, translations, community moderation, social outreach |
+
+We're looking for people who use Android launchers seriously and want to shape what comes next. You don't need to commit full-time — even a few hours a week of focused contribution makes a difference.
 
 ---
 
-<p align="center">
-  <strong>Nova Launcher isn't dead. We won't let it die.</strong><br>
-  <sub>⭐ Star this repo if you believe in the mission</sub>
-</p>
+## Current Status
+
+**Phase: Community building and team assembly**
+
+The landing page is live and collecting signups. We're gauging interest, identifying potential contributors, and defining the initial technical roadmap. Active development will begin once the founding team is in place.
+
+Visit the landing page to join the waitlist or register as a contributor:
+
+**[renovate.pages.dev](https://renovate.pages.dev/)**
+
+---
+
+## Get in Touch
+
+For questions, ideas, or just to say you're interested — reach out on Instagram: [@chrg_bsr](https://instagram.com/chrg_bsr)
+
+---
+
+*Nova Launcher isn't dead. We won't let it die.*

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reNOVAtion — Revive Nova Launcher</title>
+    <meta name="description"
+        content="An open-source community effort to bring Nova Launcher back to life. Join the waitlist or contribute as a developer.">
+    <link rel="icon" type="image/png" href="assets/nova-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Nav -->
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a href="#" class="logo">
+                <img src="assets/nova-icon.png" alt="Nova" class="logo-icon">
+                <span>re<strong>NOVA</strong>tion</span>
+            </a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#waitlist">Waitlist</a>
+                <a href="#contribute">Contribute</a>
+            </div>
+            <a href="#waitlist" class="btn btn-nav">Join Waitlist</a>
+            <button class="mobile-menu" id="mobile-menu" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <div class="tag">
+                    <span class="tag-dot"></span>
+                    Open Source Project
+                </div>
+                <h1>Nova Launcher<br>deserves a<br><span class="accent">second life.</span></h1>
+                <p>Development stopped. Updates ended. But millions still love it. <strong>reNOVAtion</strong> is a
+                    community-driven, open-source effort to pick up where things left off — and build something even
+                    better.</p>
+                <div class="hero-btns">
+                    <a href="#waitlist" class="btn btn-primary">Join the Waitlist</a>
+                    <a href="#contribute" class="btn btn-outline">Become a Contributor</a>
+                </div>
+                <div class="hero-counter">
+                    <div class="counter-item">
+                        <span class="counter-num" id="hero-waitlist-count">0</span>
+                        <span class="counter-label">on the waitlist</span>
+                    </div>
+                    <div class="counter-dot"></div>
+                    <div class="counter-item">
+                        <span class="counter-num" id="hero-contributor-count">0</span>
+                        <span class="counter-label">contributors</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-graphic">
+                <div class="icon-glow"></div>
+                <img src="assets/nova-icon.png" alt="Nova Launcher" class="hero-icon">
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-num">01</div>
+                    <h3>The Problem</h3>
+                    <p>Nova Launcher, once the most popular Android launcher, has gone silent. No updates, no
+                        communication, no roadmap. The app that defined Android customization is slowly becoming
+                        incompatible.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-num">02</div>
+                    <h3>The Idea</h3>
+                    <p>What if the community took over? An open-source fork, maintained by developers who actually use
+                        it, built in the open with contributions from anyone who cares.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-num">03</div>
+                    <h3>The Movement</h3>
+                    <p>reNOVAtion isn't just an app — it's a statement. That great software shouldn't die because a
+                        company moves on. That open source is the answer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Waitlist -->
+    <section class="waitlist" id="waitlist">
+        <div class="container waitlist-inner">
+            <div class="waitlist-left">
+                <span class="section-tag">Stay Updated</span>
+                <h2>Get notified when<br>we launch.</h2>
+                <p>Drop your email. No spam, no nonsense — just a heads-up when reNOVAtion is ready to install.</p>
+            </div>
+            <div class="waitlist-right">
+                <form id="waitlist-form" class="waitlist-form">
+                    <input type="email" id="email-input" placeholder="you@email.com" required autocomplete="email">
+                    <button type="submit" class="btn btn-primary" id="waitlist-btn">
+                        <span class="btn-label">Join Waitlist</span>
+                        <span class="btn-loading" style="display:none;">Joining...</span>
+                    </button>
+                </form>
+                <p class="form-hint">Your email stays with us. Period.</p>
+                <div id="waitlist-success" class="success-msg" style="display:none;">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2dd4a0" stroke-width="2.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                        <polyline points="22 4 12 14.01 9 11.01" />
+                    </svg>
+                    <span>You're in! We'll be in touch.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contribute -->
+    <section class="contribute" id="contribute">
+        <div class="container">
+            <div class="contribute-header">
+                <span class="section-tag">Build With Us</span>
+                <h2>Every contribution counts.</h2>
+                <p>Whether you write code, design interfaces, test builds, or just spread the word — there's room for
+                    you.</p>
+            </div>
+            <div class="role-grid">
+                <div class="role-card">
+                    <div class="role-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 18 22 12 16 6" />
+                            <polyline points="8 6 2 12 8 18" />
+                            <line x1="14" y1="4" x2="10" y2="20" />
+                        </svg>
+                    </div>
+                    <h4>Developers</h4>
+                    <p>Android/Kotlin, feature implementation, performance optimization.</p>
+                </div>
+                <div class="role-card">
+                    <div class="role-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 19l7-7 3 3-7 7-3-3z" />
+                            <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
+                            <path d="M2 2l7.586 7.586" />
+                            <circle cx="11" cy="11" r="2" />
+                        </svg>
+                    </div>
+                    <h4>Designers</h4>
+                    <p>UI/UX, icon packs, themes, and the next-gen launcher interface.</p>
+                </div>
+                <div class="role-card">
+                    <div class="role-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                        </svg>
+                    </div>
+                    <h4>Testers</h4>
+                    <p>Beta testing, bug reports, device compatibility checks.</p>
+                </div>
+                <div class="role-card">
+                    <div class="role-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
+                    </div>
+                    <h4>Community</h4>
+                    <p>Docs, translations, social media, and community management.</p>
+                </div>
+            </div>
+            <div class="contribute-cta">
+                <button class="btn btn-primary btn-lg" id="contribute-btn">Join as Contributor</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contributor Modal -->
+    <div class="modal-backdrop" id="contributor-modal">
+        <div class="modal">
+            <button class="modal-x" id="modal-close">&times;</button>
+            <h2>Join the team</h2>
+            <p class="modal-sub">Quick form — takes 30 seconds.</p>
+            <form id="contributor-form">
+                <label>
+                    <span>Name</span>
+                    <input type="text" id="contrib-name" placeholder="Your name" required>
+                </label>
+                <label>
+                    <span>Email</span>
+                    <input type="email" id="contrib-email" placeholder="you@email.com" required>
+                </label>
+                <label>
+                    <span>Role</span>
+                    <select id="contrib-role" required>
+                        <option value="" disabled selected>Pick one</option>
+                        <option value="developer">Developer</option>
+                        <option value="designer">Designer</option>
+                        <option value="tester">Tester / QA</option>
+                        <option value="docs">Documentation</option>
+                        <option value="community">Community</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+                <label>
+                    <span>GitHub <small>(optional)</small></span>
+                    <input type="url" id="contrib-github" placeholder="https://github.com/you">
+                </label>
+                <button type="submit" class="btn btn-primary btn-full">Count me in</button>
+            </form>
+            <div id="contributor-success" class="success-msg" style="display:none;">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2dd4a0" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                    <polyline points="22 4 12 14.01 9 11.01" />
+                </svg>
+                <span>Welcome aboard! We'll reach out soon.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-logo">
+                <img src="assets/nova-icon.png" alt="Nova" width="28">
+                <span>re<strong>NOVA</strong>tion</span>
+            </div>
+            <p class="footer-note">Community project. Not affiliated with the original Nova Launcher team.</p>
+            <a href="https://instagram.com/chrg_bsr" target="_blank" rel="noopener" class="footer-about">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                </svg>
+                Contact Me
+            </a>
+            <p class="footer-copy">&copy; 2026 reNOVAtion &mdash; Made with care by open-source contributors</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

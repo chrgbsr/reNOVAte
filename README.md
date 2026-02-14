@@ -1,8 +1,8 @@
-# 🚀 reNOVAtion
+# 🚀 reNOVAte
 
 **Nova Launcher deserves a second life.**
 
-Development stopped. Updates ended. But millions still love it. **reNOVAtion** is a community-driven, open-source movement to pick up where things left off — and build something even better.
+Development stopped. Updates ended. But millions still love it. **reNOVAte** is a community-driven, open-source movement to pick up where things left off — and build something even better.
 
 ---
 
@@ -10,7 +10,7 @@ Development stopped. Updates ended. But millions still love it. **reNOVAtion** i
 
 Nova Launcher was *the* Android launcher for years — fast, customizable, and powerful. After its acquisition, development went silent. No updates, no communication, no roadmap.
 
-**reNOVAtion** is the community's answer:
+**reNOVAte** is the community's answer:
 - 📖 Fully open-source
 - 🛠️ Maintained by developers who actually use it
 - 🤝 Built in the open, with contributions from anyone who cares
@@ -21,7 +21,7 @@ This repository hosts the **landing page** for the project — where people can 
 
 ## 🌐 Live Page
 
-> **[Visit reNOVAtion →](#)** *(deploy link here)*
+> **[Visit reNOVAte →](https://renovate.pages.dev/)**
 
 ---
 
@@ -38,7 +38,7 @@ This repository hosts the **landing page** for the project — where people can 
 ## 📂 Project Structure
 
 ```
-reNOVAtion/
+reNOVAte/
 ├── index.html              # Main landing page
 ├── style.css               # Styles (dark theme, Nova brand colors)
 ├── script.js               # Waitlist/contributor logic + Google Sheets POST
@@ -54,8 +54,8 @@ reNOVAtion/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/reNOVAtion.git
-cd reNOVAtion
+git clone https://github.com/chrgbsr/reNOVAte.git
+cd reNOVAte
 ```
 
 ### 2. Open locally
@@ -85,7 +85,7 @@ We need all kinds of help:
 | **Community** | Docs, translations, social media, outreach |
 
 **To join:**
-1. Visit the [landing page](#) and click **"Join as Contributor"**
+1. Visit the [landing page](https://renovate.pages.dev/) and click **"Join as Contributor"**
 2. Or fork this repo and submit a PR
 
 ---
